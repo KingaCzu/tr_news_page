@@ -1,0 +1,33 @@
+body{
+    background-color: blue;
+}
+/*on pages <100px, fine to use full width */
+/*on pages <100px, width of the main contect should be restricted */
+main {
+    margin-left:20%;
+    margin-right:20;
+}
+@media only screen and (max-width:800px){
+    body{
+        background-color: red;
+    }
+}
+main {
+    margin-left:5%;
+    margin-right:5;
+}
+@media only screen and (max-width:700px){
+    body{
+        background-color: lightcoral;
+    }
+}
+@media only screen and (max-width:600px){
+    body{
+        background-color: lightcoral;
+    }
+}
+@media only screen and (max-width:400px){
+    body{
+        background-color: lightcoral;
+    }
+}
